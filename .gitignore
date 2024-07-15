@@ -14,3 +14,7 @@ logs/
 # Ignore sql directories
 dags/sql/
 dags/sql_all/
+
+# Ignore macOS system files
+.DS_Store
+
