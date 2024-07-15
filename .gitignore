@@ -1,0 +1,20 @@
+# Ignore data folder
+data/
+
+# Ignore specific __pycache__ directories
+ignoredags/__pycache__/
+dags/db_connections/__pycache__/
+dags/ETL/__pycache__/
+dags/ETL/source_stg/__pycache__/
+dags/ETL/stg_to_dwh/__pycache__/
+
+# Ignore logs folder
+logs/
+
+# Ignore sql directories
+dags/sql/
+dags/sql_all/
+
+# Ignore macOS system files
+.DS_Store
+
